@@ -91,7 +91,7 @@ function displayToDos() {
   toDoContainer.innerHTML = '';
   let arr = buildToDos(toDoItems);
   arr.forEach(element => {
-    toDoContainer += element
+    toDoContainer.appendChild(element)
   });
 }
 
