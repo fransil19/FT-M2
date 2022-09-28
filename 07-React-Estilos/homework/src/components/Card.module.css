@@ -1,0 +1,35 @@
+.div{
+    width: 300px;
+    border: 2px solid rgba(126, 121, 121, 0.6);
+    border-radius: 4px; ;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.redButton{
+    margin: 3px 3px 0 0;
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-style: hidden;
+    border-radius: 3px;
+}
+
+.pronostico{
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tiempo{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}

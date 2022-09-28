@@ -1,0 +1,7 @@
+.button{
+    margin-left: 10px;
+    color: rgb(37, 172, 44) ;
+    border: 2px solid rgba(37, 172, 44, 0.8);
+    border-radius: 4px;
+    background-color:transparent;
+}

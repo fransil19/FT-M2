@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 export default function SearchBar(props) {
   // acá va tu código
-  return <div>Search Bar Component</div>
+  let textInput = useRef(null);
+  let {onSearch} = props
+
+
+  return (
+    <div>
+      <input type="text" placeholder='Ciudad...'/>
+      <button onClick={() => {onSearch('Valor Buscado')}}>Search</button>    
+    </div>
+  )
 };
